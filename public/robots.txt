@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://bilfri.by/sitemap.xml
