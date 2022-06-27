@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://ergo.liquidthink.net"
+base_url = "https://delicate-profiterole-399703.netlify.app"
 
 title = "Alan Turing"
 # a description; you can use markdown here if you like
