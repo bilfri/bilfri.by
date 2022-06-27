@@ -1,5 +1,5 @@
 # Base URL of the site, the only required config argument
-base_url = "https://example.com/blog"
+base_url = "delicate-profiterole-399703.netlify.app"
 
 # Used in RSS by default
 title = "Hermit Zola"
