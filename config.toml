@@ -15,7 +15,7 @@ compile_sass = true
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Gutenberg
-highlight_code = true
+highlight_code = false
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
@@ -23,7 +23,7 @@ build_search_index = false
 [extra]
 # theme options
 profile = "bilfri-by-logo-no-text-white-background.svg" # the name of the profile picture in static/img/
-color_themes = ["default", "dark"]
+color_themes = ["light", "dark"]
 country_flags = true # Display languages as country flags. Defaults to false.
 
 [[extra.socials]]
