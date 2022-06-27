@@ -36,12 +36,5 @@ icon = "instagram"
 display = "bilfri.by"
 uri = "https://instagram.com/bilfri.by"
 
-[extra.comments] # Optional
-repo = "insipx/Ergo"
-theme = "github-light"
-label = "comment" # Optional
-#issue_number = 1 # Specify either this or term
-term = "pathname"
-
 [extra.font_awesome]
 kit = "e307e34624"
