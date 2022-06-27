@@ -1,4 +1,4 @@
 +++
-title= "Opslag"
+title= "Posts"
 sort_by="date"
 +++

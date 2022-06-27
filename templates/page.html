@@ -60,6 +60,7 @@
 	  <div class="post-meta">
 		{% if page.date %}
 		<span>{{ page.date | date(format="%b %d, %Y")}}</span>
+		<small> - {{ macros::read_time(words=page.word_count) }}</small>
 		{% endif %}
             {% if page.extra.toc %}
             <button id="toc-btn" class="hdr-btn desktop-only-ib">
