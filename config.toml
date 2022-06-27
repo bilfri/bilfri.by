@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "bilfri.by"
+base_url = "https://bilfri.by"
 
 title = "Bilfri By"
 # a description; you can use markdown here if you like
