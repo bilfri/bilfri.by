@@ -1,10 +1,10 @@
 # The URL the site will be built for
 base_url = "https://delicate-profiterole-399703.netlify.app"
 
-title = "Alan Turing"
+title = "Bilfri By"
 # a description; you can use markdown here if you like
-description="\"*to develop the skill of correct thinking is in the first place to learn what you have to disregard. In order to go on, you have to know what to leave out.*\" \n -Kurt Gödel"
-default_language = "en"
+description="Bilfri By er en fælles cykeltur for alle der synes cykelstier giver mere mening end motorveje"
+default_language = "da"
 
 highlight_theme = "solarized-light"
 generate_feed = true
@@ -22,25 +22,19 @@ build_search_index = false
 
 [extra]
 # theme options
-profile = "profile.svg" # the name of the profile picture in static/img/
+profile = "bilfri-by-logo-v1.1-hvid-baggrund.svg" # the name of the profile picture in static/img/
 color_themes = ["default", "dark"]
 country_flags = true # Display languages as country flags. Defaults to false.
 
 [[extra.socials]]
-icon = "globe"
-icon_class = "fas"
-display = "liquidthink.net"
-uri = "liquidthink.net"
+icon = "facebook"
+display = "Bilfri By on Facebook"
+uri = "https://facebook.com/CriticalMassCPH"
 
 [[extra.socials]]
-icon = "github"
-display = "insipx"
-uri = "https://github.com/insipx"
-
-[[extra.socials]]
-icon = "twitter"
-display = "insipx"
-uri = "https://twitter.com/insipx"
+icon = "instagram"
+display = "Bilfri By on Instagram"
+uri = "https://instagram.com/bilfri.by"
 
 [[extra.socials]]
 icon = "envelope"
