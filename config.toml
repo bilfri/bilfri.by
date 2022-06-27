@@ -27,26 +27,14 @@ color_themes = ["default", "dark"]
 country_flags = true # Display languages as country flags. Defaults to false.
 
 [[extra.socials]]
-icon = "globe"
-icon_class = "fas"
-display = "liquidthink.net"
-uri = "liquidthink.net"
+icon = "facebook"
+display = "Bilfri By København"
+uri = "https://facebook.com/CriticalMassCPH"
 
 [[extra.socials]]
-icon = "github"
-display = "insipx"
-uri = "https://github.com/insipx"
-
-[[extra.socials]]
-icon = "twitter"
-display = "insipx"
-uri = "https://twitter.com/insipx"
-
-[[extra.socials]]
-icon = "envelope"
-icon_class = "fas"
-display = "say hello"
-uri = "mailto:github@andrewplaza.dev?subject=hi"
+icon = "instagram"
+display = "bilfri.by"
+uri = "https://instagram.com/bilfri.by"
 
 [extra.comments] # Optional
 repo = "insipx/Ergo"
