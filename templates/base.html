@@ -25,8 +25,8 @@
 
         <!--  css -->
         <link id="themeCSS" rel="stylesheet"
-                            href="{{ config.base_url }}/ergo.css"
-                            />
+        href="{{ config.base_url }}/{% if config.extra.color_themes %}{{ config.extra.color_themes[0] }}{% else %}default{% endif%}.css"
+        />
 
         <!-- fonts -->
         <!-- preload  -->

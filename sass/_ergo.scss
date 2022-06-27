@@ -28,22 +28,6 @@
 @import 'macros';
 @import 'shortcodes';
 
-$accent: #F05A28;
-$accent2: #f0f0f0;
-$outline: rgba(0, 0, 0, .2);
-$background: #fff;
-$text: #4D4D4D;
-$title: #000;
-
-@media (prefers-color-scheme: dark) {
-    $accent: #F05A28;
-    $accent2: #6272a4;
-    $outline: rgba(248, 248, 242, .2);
-    $background: #282a36;
-    $text: #f8f8f2;
-    $title: $text;
-}
-
 html, body {
     background-color: $background;
     color: $text;
