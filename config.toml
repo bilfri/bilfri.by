@@ -1,9 +1,9 @@
 # The URL the site will be built for
 base_url = "https://delicate-profiterole-399703.netlify.app"
 
-title = "Alan Turing"
+title = "Bilfri By"
 # a description; you can use markdown here if you like
-description="\"*to develop the skill of correct thinking is in the first place to learn what you have to disregard. In order to go on, you have to know what to leave out.*\" \n -Kurt Gödel"
+description="En fælles cykeltur for alle der synes at cykelstier giver mere mening end motorveje"
 default_language = "en"
 
 highlight_theme = "solarized-light"
