@@ -28,12 +28,12 @@ country_flags = true # Display languages as country flags. Defaults to false.
 
 [[extra.socials]]
 icon = "facebook"
-display = "Bilfri By København"
+display = "Facebook"
 uri = "https://facebook.com/CriticalMassCPH"
 
 [[extra.socials]]
 icon = "instagram"
-display = "bilfri.by"
+display = "Instagram"
 uri = "https://instagram.com/bilfri.by"
 
 [extra.font_awesome]
