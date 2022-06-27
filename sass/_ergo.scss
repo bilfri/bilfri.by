@@ -22,6 +22,7 @@
          \/____/                  \|___|
 
 */
+@import 'fonts';
 @import 'menu';
 @import 'vars';
 @import 'macros';
@@ -30,13 +31,14 @@
 html, body {
     background-color: $background;
     color: $text;
-    font-family: 'Montserrat', 'Raleway', sans-serif;
+    font-family: 'Besley*', serif;
     font-weight: 400;
     z-index: 50;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
+    font-style: italic;
     margin-bottom: 12px;
     line-height: 1;
     color: $title;
