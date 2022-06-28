@@ -1,4 +1,5 @@
 {% macro theme_selector(themes) %}
+<p> Theme: </p>
 <select id="theme_selector" size=1>
     <option value="{{themes[0]}}" selected>{{themes[0]}}</option>
     {% for theme in themes | slice(start=1) %}
