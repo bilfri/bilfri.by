@@ -1,6 +1,6 @@
 {% import "macros.html" as macros %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
     <head>
         {% block head %}
         <meta http-equiv="X-UA-Compatible" content="IE=edge" >
@@ -28,11 +28,6 @@
         href="{{ config.base_url }}/{% if config.extra.color_themes %}{{ config.extra.color_themes[0] }}{% else %}default{% endif%}.css"
         />
 
-        <!-- fonts -->
-        <!-- preload  -->
-        <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,500i,600,700,800,900|Raleway" as="style">
-        <!-- load -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,500i,600,700,800,900|Raleway">
         {% endblock head %}
     </head>
 
