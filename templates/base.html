@@ -1,0 +1,54 @@
+{% import "macros.html" as macros %}
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        {% block head %}
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+
+        <!-- SEO -->
+        {% include "partials/seo.html" %}
+
+        {% if page.title %}
+        <title> {{ page.title }} | {{ config.title }} </title>
+        {% else %}
+        <title> {{ config.title }} </title>
+        {% endif %}
+
+        <!-- Enable responsiveness on mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" >
+
+        
+        <!--  css -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+        crossorigin=""/>
+        <link id="themeCSS" rel="stylesheet" type="text/css" href="{{ config.base_url }}/light.css"/>
+        <link id="themeCSS" rel="stylesheet" type="text/css" href="{{ config.base_url }}/dark.css" media="(prefers-color-scheme: dark)"/>
+
+        <!-- js -->
+        <script src="https://kit.fontawesome.com/{{ config.extra.font_awesome.kit }}.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>
+
+        {% endblock head %}
+    </head>
+
+    <body onload="main();">
+      {% include "menu.html" %}
+
+      {% block content %} {% endblock content %}
+      {% block pagination %} {% endblock pagination %}
+
+      <footer>
+        {% block footer %}
+          {% set base_url = get_url(path="/", lang=lang) %}
+          {{ macros::social_list(classes="foot_list", bsize="extra_small") }}
+        {% endblock footer %}
+      </footer>
+    </body>
+</html>
