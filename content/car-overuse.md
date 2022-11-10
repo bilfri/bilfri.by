@@ -10,4 +10,4 @@ Der er [2,79 mio biler i Danmark i 2022](www.dst.dk/nyt/38333). Det betyder at s
 
 Biler bliver brugt til ting, hvor der allerede findes meget bedre løsninger. F.eks. er [40% af alle bilture er under 10km](https://www.dr.dk/nyheder/viden/miljoe/er-vi-magelige-naesten-halvdelen-af-alle-ture-i-bil-er-10-km-eller-kortere). Det er distancer hvor man sagtens kunne tage en (el-)cykel.
 
-- sommerhusbiler
+
