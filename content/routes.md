@@ -2,6 +2,7 @@
 title = "Ruter"
 date = 2022-09-16
 description = "Forskellige gode ruter at lave fælles cykeltur på i København."
+draft = true
 +++
 
 Gode ruter til at lave Bilfri By Cykelture:
