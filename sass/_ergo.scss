@@ -364,20 +364,18 @@ nav.pagination {
     padding: 25px;
     padding-bottom: 50px;
     margin: 0 auto;
-    border-top: 1px solid $accent2;
-    padding-top: 45px;
-    margin-top: 75px;
+    padding-top: 20px;
     display: block;
     z-index: 100;
-    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
     > span.prev {
         display: block;
-        float: left;
         z-index: 100;
     }
     > span.next {
         display:block;
-        float: right;
         z-index: 100;
     }
 }
