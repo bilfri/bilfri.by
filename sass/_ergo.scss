@@ -476,15 +476,38 @@ nav.pagination {
   transform: translateY(-50%) translateX(20px);
 }
 
+img {
+    max-width: 100%;
+}
+
 #map {
     height: 500px;
 }
 
-#map path{
+path {
     stroke: $accent;
+    opacity: 0.7;
+}
+
+.route1 {
+    stroke: #bc0064
+}
+
+.route2 {
+    stroke: #0534ee;
+}
+
+.route3 {
+    stroke: #ee0505;
+}
+
+.route4 {
+    stroke: #05ee11;
+}
+
+.route5 {
+    stroke: #ee6a05;
 }
 
 
-img {
-    max-width: 100%;
-}
+
