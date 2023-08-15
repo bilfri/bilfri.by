@@ -27,7 +27,6 @@
         integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
         crossorigin=""/>
         <link id="themeCSS" rel="stylesheet" type="text/css" href="{{ config.base_url }}/light.css"/>
-        <link id="themeCSS" rel="stylesheet" type="text/css" href="{{ config.base_url }}/dark.css" media="(prefers-color-scheme: dark)"/>
 
         <!-- js -->
         <script src="https://kit.fontawesome.com/{{ config.extra.font_awesome.kit }}.js" crossorigin="anonymous"></script>
@@ -47,7 +46,7 @@
       <footer>
         {% block footer %}
           {% set base_url = get_url(path="/", lang=lang) %}
-          {{ macros::social_list(classes="foot_list", bsize="extra_small") }}
+          <!--{{ macros::social_list(classes="foot_list", bsize="extra_small") }}-->
         {% endblock footer %}
       </footer>
     </body>

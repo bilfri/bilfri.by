@@ -4,7 +4,7 @@ base_url = "https://bilfri.by"
 title = "Bilfri By"
 
 # a description; you can use markdown here if you like
-description="En fælles cykeltur for alle der synes at cykelstier giver mere mening end motorveje"
+description="Fordi cykelstier gi'r mer' mening end motorveje"
 default_language = "en"
 
 highlight_theme = "solarized-light"

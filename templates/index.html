@@ -11,7 +11,7 @@
   </figure>
   <h2 class="site_title">{{config.title}}</h2>
   <div>{{ config.description | as_str | markdown(inline=true) | safe }}</div>
-  {{ macros::social_list(classes="header_list", bsize="small") }}
+  <!--{{ macros::social_list(classes="header_list", bsize="small") }}-->
   {% endblock header %}
 </header>
 
@@ -21,12 +21,14 @@
         <h1 class="article_title" >
             <a href="{{page.permalink}}"  id="article_link" >{{page.title}}</a>
         </h1>
+            <!--
             {{ macros::frontmatter(
                   classes="",
                   date=page.date | default(value=""),
                   word_count=page.word_count,
                   read_time=page.reading_time
             ) }}
+            -->
             <p class="article_content">{{ page.description | default(value=page.content | striptags | truncate) | safe }}</p>
         <a class="button small" href="{{page.permalink}}">Læs mere →</a>
       </article>

@@ -1,6 +1,7 @@
 {% import "macros.html" as macros %}
 
 {% block menu %}
+
 <input type="checkbox" id="openSidebarMenu" class="openSidebarMenu">
 <label class="menu cross menu--1" for="openSidebarMenu">
     <svg viewBox="0 0 75 75" xmlns="https://www.w3.org/2000/svg">
@@ -18,8 +19,15 @@
                 <a href="{{ config.base_url }}" >{{ config.title }}</a>
                 <div class="menu_div" ></div>
             </li>
-            {{ macros::social_common(classes="", icon_class="fab") }}
+            <li>
+                <a href="{{ config.base_url }}/hvorfor"> Hvorfor? </a>
+            </li>
+            <li>
+                <a href="{{ config.base_url }}/hvordan"> Hvordan? </a>
+            </li>
+
         </ul>
     </div>
 </div>
+
 {% endblock menu %}
